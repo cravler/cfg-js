@@ -1,0 +1,36 @@
+{
+  "name": "cfg-js",
+  "description": "A simple config module",
+  "author": {
+    "name": "Sergei Vizel",
+    "email": "sergei.vizel@gmail.com",
+    "url": "https://github.com/cravler"
+  },
+  "homepage": "https://github.com/cravler/cfg-js",
+  "keywords": [
+    "config",
+    "configuration",
+    "simple"
+  ],
+  "license": "MIT",
+  "version": "0.1.0",
+  "main": "index.js",
+  "dependencies": {
+    "object-at": "^1.0.1",
+    "object-has": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cravler/cfg-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cravler/cfg-js/issues"
+  },
+  "scripts": {
+    "test": "mocha './{,!(node_modules)/**/}*.spec.js'"
+  }
+}
