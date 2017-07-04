@@ -13,7 +13,7 @@
     "simple"
   ],
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "dependencies": {
     "object-at": "^1.0.1",

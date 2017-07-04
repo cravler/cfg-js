@@ -24,7 +24,7 @@ var cfg = new Config({
 });
 
 cfg.has('hello.cfg.js'); // true
-cfg.get('hello.cfg.js'); // 'hello cfg-js
+cfg.get('hello.cfg.js'); // 'hello cfg-js'
 
 cfg.has('js.cfg.hello'); // false
 cfg.get('js.cfg.hello'); // undefined
